@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+}
+#itemlistResturant .card {
+  height: 100% !important;
+}
+input::placeholder {
+  color: #ffc107 !important;
+}
+.button-top-border {
+  border-top: 1px solid #ffc107;
+}
+.Summary-Output p {
+  font-size: 11px !important;
+}
+span {
+  font-size: 9px;
+}
+.Modal-el {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999 !important;
+}
+.clipboard {
+  border-radius: 50% !important;
+  background-color: #ffc107 !important;
+  padding: 10px 15px !important;
+}
+.card-display-list {
+  display: none !important;
+}
+.card-show{
+    display: block !important;
+}
+/* body {
+  background-color: #ffc107 !important; 
+} */
+.form-login-display {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.form-login-display .card{
+    background-color: #fff !important;
+    
+}
+.form-login-display .card button {
+    background-color: #ffc107 !important;
+    border: transparent !important;
+}
